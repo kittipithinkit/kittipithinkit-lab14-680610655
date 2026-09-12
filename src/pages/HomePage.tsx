@@ -1,3 +1,5 @@
+import ModalRegister from "../components/ModalRegister";
+
 export default function HomePage() {
   return (
     <div className="col-12 mt-4 p-0">
@@ -15,6 +17,7 @@ export default function HomePage() {
           Register
         </button>
       </div>
+      <ModalRegister />
     </div>
   );
 }
